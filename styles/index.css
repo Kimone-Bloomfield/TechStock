@@ -1,0 +1,171 @@
+
+.navbar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f51515;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.navbar a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #000000;
+  display: block;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color:#000000;
+  background: #ffffff;
+  display: block;
+  border-radius: 5%;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .navbar {padding-top: 15px;}
+  .navbar a {font-size: 18px;}
+}
+
+.Home[h2]
+{
+  color: #000000;
+  position:absolute;
+  left: 230px;
+}
+
+.logo
+{
+  display:flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sliderimg
+{
+  object-fit: contain;
+  width: 20%;
+  height:10%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 4%;
+}
+
+.slider{
+  width: 100%;
+  height: 10%;
+  overflow: hidden;
+  animation-duration: infinte;
+}
+.slider .sliderimg{
+  animation: sideAnimation 5s linear infinite;
+}
+
+h2{
+  color: #000000;
+  position:absolute;
+  left: 230px;
+}
+
+/* login.css */
+
+.container {
+  background-image: url("/bg.png");
+  height: 97vh;
+  width: 100%;
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container img{
+  width: 35%;
+  height: 80%;
+  float: left;
+  margin-top: 5%;
+}
+
+.form-container {
+
+  border: 1px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  width:20%;
+  height: 90%;
+  margin-left: 60%;
+}
+
+.form-container h1,
+.form-container h2 {
+  text-align:left;
+}
+
+
+.form-container label {
+  margin-bottom: 5px;
+}
+
+.form-container input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  
+}
+
+.form-container button {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: #2c8df5;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  
+  font-weight: bold;
+}
+
+.form-container p{
+  align-self: center ;
+  font-size: medium ;
+}
+
+.form-container img
+{
+  width: 80%;
+}
+
+/*Checkout form*/
+.checkoutForm
+{
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  width:20%;
+  height: 80%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.checkoutForm input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width:fit-content;
+}
+
+
+
